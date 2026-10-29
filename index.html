@@ -1,14 +1,165 @@
-<!doctype html>
+
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DMA 342</title>
-  </head>
-  <body>
-    <h1>Web Design Projects</h1>
-    <ul>
-      <li><a href="project1/">Project 1</a></li>
-    </ul>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Western New York Flash Academy soccer programs and player development.">
+  <title>Western New York Flash Academy</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600;700;800&family=Russo+One&display=swap" rel="stylesheet">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <!-- Header and navigation -->
+  <header class="header" id="home">
+    <a href="#home" class="logo" aria-label="Flash Academy home">
+      <span>Flash</span>
+    </a>
+
+    <button class="menu-toggle" aria-label="Toggle navigation"
+      aria-expanded="false">
+      ☰
+    </button>
+
+    <nav class="navbar">
+      <a href="#contact">Contact</a>
+      <a href="#programs">Sign Up</a>
+      <a href="#news">News</a>
+      <a href="#programs">Shop</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero section -->
+    <section class="hero">
+      <div class="hero-emblem" aria-hidden="true">
+        <span class="emblem-shield">F</span>
+        <span class="soccer-ball">⚽</span>
+      </div>
+
+      <h1>Western New York Flash Academy</h1>
+
+      <a class="button" href="#about">Learn More</a>
+    </section>
+
+    <!-- Academy mission -->
+    <section class="mission" id="about">
+      <div class="mission-content">
+        <h2>WNY Flash Academy</h2>
+
+        <p>
+          Our mission is to develop complete soccer players and teams
+          in a safe and supportive environment, who excel in the
+          technical, tactical, physical and psychological areas of
+          the game. To instill in our young players positive core
+          values and an excellent work ethic, providing a platform
+          for our players from which they can succeed at the
+          collegiate and professional levels of play.
+        </p>
+
+        <a href="#programs" class="join-button">
+          <span aria-hidden="true">⚡</span>
+          Join The Flash Academy
+          <span aria-hidden="true">⚡</span>
+        </a>
+
+        <div class="contact" id="contact">
+          <h3>Contact</h3>
+          <a href="tel:+13193635652">1 (319) 363 5652</a>
+          <a href="mailto:WNY@flash.com">WNY@flash.com</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Programs -->
+    <section class="programs" id="programs">
+      <h2>Programs</h2>
+
+      <div class="program-grid">
+
+        <article class="program-card">
+          <img
+            src="https://images.unsplash.com/photo-1517466787929-bc90951d0974?auto=format&fit=crop&w=800&q=85"
+            alt="Young soccer players practicing on a field"
+            loading="lazy"
+          >
+          <h3>Junior Academy</h3>
+          <p>
+            A fun, high-energy introduction to soccer for young
+            players building foundational skills.
+          </p>
+          <p class="age">Ages: 6–10</p>
+        </article>
+
+        <article class="program-card">
+          <img
+            src="https://images.unsplash.com/photo-1522778119026-d647f0596c20?auto=format&fit=crop&w=800&q=85"
+            alt="Youth soccer players training together"
+            loading="lazy"
+          >
+          <h3>Youth Travel Team</h3>
+          <p>
+            Competitive teams that introduce structured training,
+            game strategy, and teamwork.
+          </p>
+          <p class="age">Ages: U9–U12</p>
+        </article>
+
+        <article class="program-card">
+          <img
+            src="https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=800&q=85"
+            alt="Soccer players competing on the field"
+            loading="lazy"
+          >
+          <h3>Premier Travel Team</h3>
+          <p>
+            Advanced teams competing across Western New York
+            and surrounding regions.
+          </p>
+          <p class="age">Ages: U13–U19</p>
+        </article>
+
+        <article class="program-card">
+          <img
+            src="https://images.unsplash.com/photo-1518604666860-9ed391f76460?auto=format&fit=crop&w=800&q=85"
+            alt="Soccer players playing a competitive match"
+            loading="lazy"
+          >
+          <h3>Elite Clubs National League</h3>
+          <p>
+            The academy's elite pathway for players seeking
+            national competition.
+          </p>
+          <p class="age">Ages: U13–U19</p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Optional news section -->
+    <section class="news" id="news">
+      <h2>Latest News</h2>
+      <p>Stay tuned for academy announcements, tryouts, and events.</p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <a href="#home" class="footer-logo">Flash</a>
+
+    <div class="social-links">
+      <a href="https://www.instagram.com/" aria-label="Instagram">◎</a>
+      <a href="https://www.facebook.com/" aria-label="Facebook">f</a>
+      <a href="https://www.youtube.com/" aria-label="YouTube">▶</a>
+    </div>
+  </footer>
+
+</body>
 </html>
